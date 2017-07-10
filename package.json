@@ -1,13 +1,35 @@
 {
-  "scripts": {
-    "build-css": "node-sass --include-path node_modules/bootstrap-sass/assets/stylesheets static/scss/main.scss   static/css/style.default.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-  },
-  "dependencies": {
-    "node-sass": "^4.5.0",
-    "sass": "^0.5.0"
-  },
+  "name": "hugo-tracks-theme",
+  "version": "1.0.0",
+  "description": "Hugo tracks theme",
+  "main": "gulpfile.js",
+  "dependencies": {},
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7"
-  }
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-hash": "^4.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktr4z/hugo-tracks-theme.git"
+  },
+  "keywords": [
+    "hugo",
+    "tracks",
+    "theme"
+  ],
+  "author": "ktran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktr4z/hugo-tracks-theme/issues"
+  },
+  "homepage": "https://github.com/ktr4z/hugo-tracks-theme#readme"
 }

@@ -9,13 +9,7 @@
 </div>
 <div class="row">
   <div class="col-md-12 footer-menu">
-      <a href="/">Home /</a>
-      {{ range $name, $taxonomy := .Site.Sections }}
-      {{ if ne $name "post" }}
-      <a href="/{{ $name | urlize }}">{{ $name }} / </a>
-      {{ end }}
-      {{ end }}
-
+    {{ partial "navMenu.html" . }}
   </div>
 </div>
 <div class="row">

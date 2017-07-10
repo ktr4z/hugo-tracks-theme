@@ -1,0 +1,3 @@
+{{ range .Site.Params.navlinks }}
+  <a href="{{ $.Site.BaseURL }}{{ .url }}">{{ .name }} / </a>
+{{ end }}

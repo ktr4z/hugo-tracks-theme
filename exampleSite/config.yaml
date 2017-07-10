@@ -1,0 +1,27 @@
+baseurl: 'http://www.example.com/'
+disqusShortname: ''
+googleAnalytics: ''
+languageCode: en-us
+
+theme: hugo-tracks-theme
+title: Hello World!
+
+params:
+  description: Describe your website
+  email: you@yoursite.com
+  navlinks:
+  - name: Home
+    url: ''
+  - name: About
+    url: about
+  - name: Get in touch
+    url: contact
+  social:
+    email: email@example.com
+    facebook: full page or profile url in facebook
+    github: full profile url in github
+    googleplus: full profile url in googleplus
+    instagram: full profile url in instagram
+    linkedin: full profile url in linkedin
+    stackoverflow: full profile url in stackoverflow
+    twitter: full profile url in twitter
